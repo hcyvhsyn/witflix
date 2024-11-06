@@ -49,7 +49,12 @@ header div {
 .avatar {
     height: 30px;
     border-radius: 100%;
-    margin-right: 1.8rem;
+    
+}
+
+.fa-bars {
+    margin-right: 1rem;
+    visibility: hidden;
 }
 
 input {
@@ -61,6 +66,10 @@ input {
 
 .search-icon {
     margin-left: -2rem;
+}
+
+.fa-bell {
+    margin-left: .9rem;
 }
 
 nav a{
@@ -190,6 +199,34 @@ main div  {
     min-width: 350px;
     border-radius: .5rem;
     padding: 1rem;
+}
+
+.suggestion-movies {
+    display: flex;
+    overflow-x: auto; /* Yatay kaydırma ekler */
+    gap: 1rem; /* Kartlar arasında boşluk bırakır */
+    padding-bottom: 10px; /* Scrollbar'ın içeriklerle üst üste binmemesi için */
+}
+
+/* Scrollbar'ın tamamı */
+.suggestion-movies::-webkit-scrollbar {
+    height: .4rem; /* Yatay scroll yüksekliği */
+}
+
+/* Scrollbar arka planı */
+.suggestion-movies::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Scrollbar'ın kaydırma kısmı */
+.suggestion-movies::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Kaydırma kısmı üzerine gelindiğinde rengi */
+.suggestion-movies::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 
@@ -351,49 +388,39 @@ footer h5 {
 
 @media (max-width: 500px) {
     header {
-        flex-wrap: wrap;
-        justify-content: center;
-        
-    }
-
-    header nav {
-        margin-left: 2rem;
-        order: 1;
-        width: 100%;
-        justify-content: center;
-        margin-top: 1rem;
-    }
-
-    main {
-        width: 100%;
-    }
-
-    .input-container {
-        padding: .2rem;
-        width: 100%;
-    }
-
-
-    footer {
-        flex-wrap:wrap ;
+        display: block;
         text-align: center;
     }
 
-    footer nav {
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    header div {
         justify-content: center;
     }
+
+    .fa-bars {
+        visibility: visible;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+
 
     .social-navigation, .mobile-app-navigation {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-    }
-
-    .social-navigation div, .mobile-app-navigation div {
         justify-content: center;
+        align-items: center;
     }
-
-
-    
-
 }
 
 
