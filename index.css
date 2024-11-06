@@ -203,28 +203,28 @@ main div  {
 
 .suggestion-movies {
     display: flex;
-    overflow-x: auto; /* Yatay kaydırma ekler */
-    gap: 1rem; /* Kartlar arasında boşluk bırakır */
-    padding-bottom: 10px; /* Scrollbar'ın içeriklerle üst üste binmemesi için */
+    overflow-x: auto; 
+    gap: 1rem; 
+    padding-bottom: 10px; 
 }
 
-/* Scrollbar'ın tamamı */
+
 .suggestion-movies::-webkit-scrollbar {
-    height: .4rem; /* Yatay scroll yüksekliği */
+    height: .4rem; 
 }
 
-/* Scrollbar arka planı */
+
 .suggestion-movies::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
-/* Scrollbar'ın kaydırma kısmı */
+
 .suggestion-movies::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 10px;
 }
 
-/* Kaydırma kısmı üzerine gelindiğinde rengi */
+
 .suggestion-movies::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
@@ -411,8 +411,6 @@ footer h5 {
         flex-wrap: wrap;
         text-align: center;
     }
-
-
 
     .social-navigation, .mobile-app-navigation {
         display: flex;
