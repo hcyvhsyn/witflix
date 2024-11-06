@@ -1,0 +1,401 @@
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+}
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    gap: 0.5rem;
+}
+
+
+header h1 {
+    color: red;
+    flex: 1;
+    margin-left: 1.8rem;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav a{
+    transition: all 1s ease;
+}
+
+header nav a:hover{
+    color: black;
+    font-weight: normal;
+    text-decoration: underline;
+    
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.avatar {
+    height: 30px;
+    border-radius: 100%;
+    margin-right: 1.8rem;
+}
+
+input {
+    padding: 0.3rem;
+    width: 9rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.search-icon {
+    margin-left: -2rem;
+}
+
+nav a{
+    color: rgb(64, 64, 64);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+/* hero */
+
+.hero{
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2023/12/andy-thinking-in-the-shawshank-redemption.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    transition: all 1s ease;
+}
+
+.hero:hover{
+    background-image: url(https://www.icegif.com/wp-content/uploads/2021/11/icegif-774.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+main div  {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+    
+}
+
+.hero {
+    font-size: .9rem;
+    margin: 2rem;
+    padding: 4rem;
+    border: 1px solid black;
+    
+}
+
+.ana-kisim {
+    font-weight: bold;
+    color: red;
+}
+
+.under-name{
+    display: flex;
+    gap: .4rem;
+}
+
+.fa-star {
+    color: red;
+} 
+
+.duration {
+    font-weight: 800;
+}
+
+.imdb {
+    font-weight: 800;
+}
+
+.age-limit{
+    display: inline;
+    border: 1px solid black;
+    border-radius: .2rem;
+    padding: .1rem;
+
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border-radius: .3rem;
+    border: none;
+    padding: .4rem;
+    width: 5.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(153, 0, 0);
+}
+
+
+/* suggestion */
+
+.suggestion-movies {
+    display: flex;
+    justify-content: space-between;
+    gap: .2rem;
+}
+
+
+
+.suggestion {
+    margin: 2rem;
+}
+
+.suggestion-row-title {
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+}
+
+.suggestion-row-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestion-row-title a {
+    color: gray;
+}
+
+.suggestion-row-title h3 {
+    margin: 1rem 0;
+}
+
+.movie-card {
+    border: 1px solid black;
+    min-width: 350px;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+
+.dark-knight{
+    background-image: url(https://static1.srcdn.com/wordpress/wp-content/uploads/2020/03/The-Best-Take-On-What-A-Real-Life-Superhero-Would-Look-Like.jpg.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    transition: all 1s ease;
+}
+
+.dark-knight:hover{
+    background-image: url(https://media.tenor.com/evaZ_xCxcCgAAAAM/the-dark-knight-batman.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.forrest-gump{
+    background-image: url(https://i.guim.co.uk/img/media/78eb1f6bd0f92d4d3cf19f5bddda1a902e2a6fcd/0_95_2371_1422/master/2371.jpg?width=1200&quality=85&auto=format&fit=max&s=e38a50cd354d94cc959a8a34f6536a7c);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    transition: all 1s ease;
+}
+
+.forrest-gump:hover{
+    background-image: url(https://www.icegif.com/wp-content/uploads/2022/08/icegif-268.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.dark{
+    background-image: url(https://preview.redd.it/no-spoilers-officially-dark-series-won-the-award-for-the-v0-qh5tno8b8ae81.jpg?width=640&crop=smart&auto=webp&s=50dfcbb888ccbb38ad7806cb300bfc6f7417aa64);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    transition: all 1s ease;
+}
+
+.dark:hover{
+    background-image: url(https://64.media.tumblr.com/2313345570889f7302c46c9ad47befbb/c2cd619775a930d4-55/s500x750/d044841a33554fd4305ba67b634eacb91cdb27b4.gifv);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.red-notice{
+    background-image: url(https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQUP3xB9a78Uh-cRylmAB7KsRGwkuvGrp-r3S9jehLRnIDD35UHcZnmiWjCmU4TVj1_audKsTFLJqBb5c3rJYzjY7Sf0u4i5vOrMvCAzWx8t_06yUZeqrtU0wmwOYrGlfHSE1WVPbGcc3lHoB5KNWFZW6pYg.jpg?r=d6c);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    transition: all 1s ease;
+}
+
+.red-notice:hover{
+    background-image: url(https://i.makeagif.com/media/9-27-2021/RS2t2o.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.to-the-lake{
+    background-image: url(https://d17389e216ygm.cloudfront.net/wp-content/uploads/CE_ToTheLake-4.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    transition: all 1s ease;
+}
+
+.to-the-lake:hover{
+    background-image: url(https://64.media.tumblr.com/a9c86ba2c07699722adda68e28128816/1225be2f5e40e242-1a/s400x600/8f8acdd26675ba620c91c02cf23f19be05523d51.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.snowpiercer{
+    background-image: url(https://media.vanityfair.com/photos/53adb3e7b8c4d8fa7c000609/16:9/w_1280,c_limit/la-et-mn-bong-joon-ho-snowpiercer-to-open-los--002.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    transition: all 1s ease;
+}
+
+.snowpiercer:hover{
+    background-image: url(https://i.makeagif.com/media/4-23-2016/PGl0ST.gif);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: 2rem;
+    font-size: .9rem;
+}
+
+footer h5 {
+    margin: 0;
+}
+
+.mobile-app-navigation {
+    min-width: 300px;
+}
+
+.social-navigation {
+    min-width: 300px;
+}
+
+.mobile-app-navigation img{
+    height: 2.5rem;
+}
+
+.social-navigation div {
+    margin-top: 1rem;
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+.fa-facebook{
+    color: blue;
+    cursor: pointer;
+}
+
+.fa-square-x-twitter{
+    color: black;
+    cursor: pointer;
+}
+
+.fa-youtube{
+    color: red;
+    cursor: pointer;
+}
+
+.mobile-app-navigation div {
+    margin-top: 1rem;
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    header nav {
+        margin-left: 2rem;
+        order: 1;
+        width: 100%;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .input-container {
+        padding: .2rem;
+        width: 100%;
+    }
+
+
+    footer {
+        flex-wrap:wrap ;
+        text-align: center;
+    }
+
+    footer nav {
+        justify-content: center;
+    }
+
+    .social-navigation, .mobile-app-navigation {
+        width: 100%;
+    }
+
+    .social-navigation div, .mobile-app-navigation div {
+        justify-content: center;
+    }
+
+
+    
+
+}
+
+
+  
+
